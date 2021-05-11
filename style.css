@@ -3,6 +3,7 @@ html
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -231,7 +232,6 @@ nav ul li a
 
 
 
-
 /******** Social Media links  ************/
 
 .links
@@ -255,6 +255,53 @@ nav ul li a
 }
 
 /******** End of social media links ************/
+
+
+
+
+
+
+
+
+/******** construct pop up ***********/
+
+.construct-pop-up
+{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 80px;
+    background-color: white;
+}
+
+.close-construct-pop-up
+{
+    text-align: end;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: -.5em;
+}
+
+.construct-pop-up-body
+{
+    width: 75%;
+    color: black;
+    font-size: 22px;
+    padding: .5em;
+    border: 1px solid black;
+    padding-bottom: .5em;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.construct-pop-up-text
+{
+    text-align: center;
+}
+
+/******** construct pop up ***********/
+
 
 
 
@@ -300,3 +347,54 @@ nav ul li a
 }
 
 /********** End of section-1-Our Purpose **********/
+
+
+
+
+
+
+
+/******* section-2 Newsletter ********/
+
+.section-newsletter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.newsletter-body
+{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.newsletter-heading
+{
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Titillium Web', sans-serif;    
+    font-size: 30px;
+}
+
+.newsletter-sub-heading
+{
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Titillium Web', sans-serif;    
+    font-size: 25px;
+}
+
+@media screen and (max-width: 715px) 
+{
+    .newsletter-body
+    {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+/******* End of newsletter ********/
