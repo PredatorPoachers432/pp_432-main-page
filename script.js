@@ -78,18 +78,3 @@ function githubLink(){
 }
 
 ////////// Social media links ////////////////
-
-
-
-
-
-
-
-//////////// Pop up for newletter /////////// 
-
-let popUpBody = document.querySelector('.pop-up-body')
-function closePopUp() {
-    popUpBody.style.display = 'none'
-}
-
-//////////// end of pop up for newletter /////////// 
